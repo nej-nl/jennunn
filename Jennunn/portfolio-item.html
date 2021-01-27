@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jen Portfolio Website</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/5831d24662.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <!------------------Header-------------------------------->
+    <header>
+      
+      <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Skills</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+ <!------------------Intro------------------------------------>
+
+ <!--<section class="intro">
+  <h1 class="section__title section__title--intro">The title <strong>of my project</strong>
+  </h1>
+  <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
+</section>-->
+
+<!------------------Portfolio items------------------------------------>
+
+<section class="my-portfolio-items">
+  <div class="portfolio-items">
+      <!-- Portfolio item 01 -->
+      <div class="portfolio-item-individual" id="natours">
+        <h2 class="section__title section__title--portfolio">Natours</h2>
+            <p class="section__subtitle section__subtitle--portfolio">Development - UI/UX - 2020</p>
+          <a href="./index.html#work" class="portfolio-item-link">
+            <img src="./img/Natours2.png" alt="Travel website screenshot" class="portfolio-item__img">
+          </a>
+            <p>Built website for overnight camping tours and the ability to select different tour options. Animations help guide the user along and well designed UX, adds that extra polish to the site. Implemented custom grid and used media queries for responsive design.</p>
+            <p>Technologies used: Javascript (ES6+), CSS3, Sass, HTML5 and jQuery.</p>
+        </div>
+     
+      <!-- Portfolio item 02 -->
+      <div class="portfolio-item-individual" id="piggame">
+        <h2 class="section__title section__title--portfolio">Pig Dice Game</h2>
+            <p class="section__subtitle section__subtitle--portfolio">Development - UI/UX - 2020</p>
+        <a href="./index.html#work" class="portfolio-item-link">
+          <img src="./img/Pig2.png" alt="Pig dice game screenshot" class="portfolio-item__img">
+        </a>
+        <p>Built a dice game that has several buttons providing a dynamic player experience.  Players take turns to roll both dice as many times as they wish, adding all rolls results to a running total, but losing their gained score for the turn if they roll a 1. The first player to reach a score of 100, wins the game. 
+        Implemented functions, variable declaration and if/else statements. 
+          </p>
+            <p>Technologies used: Javascript (ES6+), CSS3 and HTML5</p>
+      </div>
+
+      <!-- Portfolio item 03 -->
+      <div class="portfolio-item-individual" id="budget">
+        <h2 class="section__title section__title--portfolio">Budgety</h2>
+           <p class="section__subtitle section__subtitle--portfolio">Development - UI/UX - 2020</p>
+        <a href="./index.html#work" class="portfolio-item-link">
+          <img src="./img/Budget2.png" alt="Budget App screenshot" class="portfolio-item__img">
+        </a>
+        <p>Built budgeting App that allows for the calculation of funds and can monitor the percentage of expense to income. </p>
+        <p>Technologies used: Javascript (ES6+), CSS3 and HTML5</p>
+      </div>
+
+      
+     <!-- Portfolio item 04 -->
+     <div class="portfolio-item-individual" id="guess">
+      <h2 class="section__title section__title--portfolio">Guess My Number</h2>
+      <p class="section__subtitle section__subtitle--portfolio">Development - UI/UX - 2020</p>
+      <a href="./index.html#work" class="portfolio-item-link">
+        <img src="./img/Guess2.png" alt="Guess my number game screenshot" class="portfolio-item__img">
+      </a>
+      <p>Built guessing game giving players the ability to play against the site.  Game design inspired by classic arcade games. Implemented inline style by manipulating CSS3 and refactoring code. </p>
+            <p>Technologies used: Javascript (ES6+), CSS3 and HTML5</p>
+     </div>
+     
+      <!-- Portfolio item 05 -->
+      <div class="portfolio-item-individual" id="dental">
+        <h2 class="section__title section__title--portfolio">Coming Soon</h2>
+            <p class="section__subtitle section__subtitle--portfolio">Designer - Development - UI/UX - 2020</p>
+        <a href="./index.html#work" class="portfolio-item-link">
+          <img src="./img/Dental.jpg" alt="Covid-19 Dental Visit Form" class="portfolio-item__img">
+        </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+     
+      <!-- Portfolio item 06 -->
+      <div class="portfolio-item-individual" id="question">
+        <h2 class="section__title section__title--portfolio">Coming Soon</h2>
+            <p class="section__subtitle section__subtitle--portfolio">Designer - Development - UI/UX - 2020</p>
+        <a href="./index.html#work" class="portfolio-item-link">
+          <img src="./img/QuestionMark.jpg" alt="Unknown" class="portfolio-item__img">
+        </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+      
+  </div>
+</section>
+
+<!------------------Footer----------------------------------->
+    <footer class="footer">
+      <a href="mailto:nunnljen@gmail.com" class="footer__link">nunnljen@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/nej-nl" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/jennifer-nunn-94762011a/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
