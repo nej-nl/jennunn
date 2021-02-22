@@ -154,7 +154,7 @@ header {
 
 .nav {
   position: fixed;
-  background: var(--clr-dark);
+  background: #89c2ba;
   color: var(--clr-light);
   top: 0;
   bottom: 0;
@@ -189,7 +189,7 @@ header {
 }
 
 .nav-toggle {
-  padding: 0.1em;
+  padding: 0.5em;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -255,12 +255,11 @@ header {
 .intro {
   position: relative;
   height: 100vh;
-  margin-right: 20%;
-  margin-left: 20%;
+  
 
   text-align: center;
   background-color: var(--clr-accent);
-  border-radius: 50% 50% 50% 50%;
+ 
   background-image: url(../trees.jpg);
   overflow: hidden;
   background-size: cover;
@@ -275,9 +274,10 @@ header {
 
 .section__subtitle--intro {
   color: var(--clr-accent);
+  font-size: 3em;
 }
 
-@media (max-width: 1300px) {
+/*@media (max-width: 1300px) {
   .intro {
     margin-right: 10%;
     margin-left: 10%;
@@ -299,45 +299,8 @@ header {
   .section__title--intro {
     margin-top: 2em;
   }
-}
-
-/*************************already commented out prior to computer girl *****************/
-/*@media (min-width: 600px) {
-  /* .intro {
-    display: grid;
-    width: min-content;
-    margin: 0 auto;
-    grid-column-gap: 1em;
-    grid-template-areas:
-      "img title"
-      "img subtitle";
-    grid-template-columns: min-content max-content;
-  }
-
-  .section__subtitle--intro {
-    align-self: start;
-    grid-column: -1/1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
-  }*/
-
-/*.intro__img {
-    grid-area: img;
-    min-width: 275px;
-    position: relative;
-    z-index: 2;
-  }
 }*/
 
-/*@media (min-width: 1300px) {
-  .intro {
-    background-color: var(--clr-accent);
-    border-radius: 0 0 100% 100%;
-  }
-}*/
 
 /******** My Skills Section **************/
 
@@ -438,11 +401,9 @@ header {
   max-width: 1000px;
   margin: 0 auto;
   height: 100vh;
+ 
 }
 
-.about-me__img {
-  filter: brightness(45%);
-}
 
 .section__title--about {
   margin-top: 2em;
@@ -509,6 +470,7 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: .5em;
 }
 
 .portfolio__item {
@@ -599,7 +561,7 @@ header {
   background-color: #111;
   color: var(--clr-accent);
   text-align: center;
-  padding: 2.5em 0;
+  padding: 1em 0;
   font-size: var(--fs-h3);
 }
 
