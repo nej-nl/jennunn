@@ -277,29 +277,12 @@ header {
   font-size: 3em;
 }
 
-/*@media (max-width: 1300px) {
-  .intro {
-    margin-right: 10%;
-    margin-left: 10%;
+
+@media (max-width: 700px) {
+  .section__subtitle--intro {
+    font-size: 1.5em;
   }
 }
-
-@media (max-width: 1000px) {
-  .intro {
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 800px) {
-  .intro {
-    border-radius: 25%;
-  }
-
-  .section__title--intro {
-    margin-top: 2em;
-  }
-}*/
 
 
 /******** My Skills Section **************/
@@ -535,6 +518,14 @@ header {
 
   .section__title--work {
     margin-top: 3em;
+  }
+
+  .portfolio__item {
+    overflow: visible;
+  }
+
+  .my-work {
+    height: fit-content;
   }
 }
 
