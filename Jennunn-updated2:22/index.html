@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jen Portfolio Website</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/5831d24662.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!------------------Header---------------------------------------->
+    <header>
+    
+      <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#body" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <!------------------Intro---------------------------------------->
+
+    <section class="intro" id="body">
+      <h1 class="section__title section__title--intro">Hi, I'm <strong><br>Jen Nunn</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">A Web Developer</p>
+    </section>
+
+<!------------------About Me---------------------------------------->
+
+<section class="about-me" id="about">
+  <h2 class="section__title section__title--about">About Me</h2>
+    <p class="section__subtitle section__subtitle--about">Developer based out of Idaho</p>
+    <div class="about-me__body">
+      <p>I am a web developer with a passion for front-end development and a background in healthcare.  I have honed my skills to create user-centric web applications with an emphasis on ease of use and intuitive design. I am able to quickly learn new technologies to meet business needs and performance standards.</p>
+        <p>I am located in the pacific northwest but would like to work remotely. I hope to be a part of a team that is supportive, respectful, and values a healthy work environment.</p>
+      <p>Outside of work you'll find me listening to live music, hiking and enjoying the outdoors.</p>
+    </div>
+ 
+      <!--<img src="./img/sunset-girl-clouds.jpg" alt="Girl at sunset" class="about-me__img">-->
+
+</section>
+
+      <!------------------My Skills---------------------------------------->
+
+    <section class="my-skills" id="skills">
+      <h2 class="section__title section__title--skills">My Skills</h2>
+      <div class="skills">
+        <div class="skill"> <!-- skill -->
+          <ul class="skill__list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap4</li>
+            <li>Javascript (ES6+)</li>
+          </ul>
+        </div>
+
+        <div class="skill"> <!-- skill -->
+          <ul class="skill__list">
+            <li>jQuery</li>
+            <li>NPM</li>
+            <li>Github</li>
+            <li>Git</li>
+          </ul>
+        </div>
+
+        <div class="skill"> <!-- skill -->
+          <ul class="skill__list" >
+            <li>API</li>
+            <li>MongoDB</li>
+            <li>Figma</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+
+        <div class="skill"> <!-- skill -->
+          <ul class="skill__list">
+            <li>JSON</li>
+            <li>VS Code</li>
+            <li>Webpack</li>
+            <li>Sass</li>
+          </ul>
+        </div>
+
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+  <!------------------My Work---------------------------------------->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+    
+      <div class="portfolio">
+          <!-- Portfolio item 01 -->
+         <a href="./portfolio-item.html#natours" class="portfolio__item">
+            <img src="./img/Natours.png" alt="Travel website" class="portfolio__img">
+          </a>
+
+          <!-- Portfolio item 02 -->
+          <a href="./portfolio-item.html#piggame" class="portfolio__item">
+            <img src="./img/Pig.png" alt="Pig dice game" class="portfolio__img">
+          </a>
+
+          <!-- Portfolio item 03 -->
+          <a href="./portfolio-item.html#budget" class="portfolio__item">
+            <img src="./img/Budget.png" alt="Budget App" class="portfolio__img">
+          </a>
+
+         <!-- Portfolio item 04 -->
+         <a href="./portfolio-item.html#guess" class="portfolio__item">
+            <img src="./img/GuessMyNumber.png" alt="Guess my number game" class="portfolio__img">
+          </a>
+          <!-- Portfolio item 05 -->
+         <a href="./portfolio-item.html#dental" class="portfolio__item">
+            <img src="./img/DentalFormLogin.png" alt="Covid-19 Dental Visit Form" class="portfolio__img">
+          </a>
+          <!-- Portfolio item 06 -->
+          <a href="./portfolio-item.html#question" class="portfolio__item">
+            <img src="./img/chucknoframe2.png" alt="Unknown" class="portfolio__img">
+          </a>
+      </div>
+    </section>
+    
+    <!------------------Footer---------------------------------------->
+    <footer class="footer">
+        <!--<a href="mailto:" class="footer__link"></a>-->
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/nej-nl" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/jennifer-nunn-94762011a/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  
+  </body>
+</html>
